@@ -1,0 +1,31 @@
+{
+  "name": "wikiviewer",
+  "version": "1.0.0",
+  "description": "Simple wikipedia viewer",
+  "main": "wikiViewer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptrmelko10/wikiViewer.git"
+  },
+  "author": "Peter Melko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ptrmelko10/wikiViewer/issues"
+  },
+  "homepage": "https://github.com/ptrmelko10/wikiViewer#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-hexrgba": "^1.0.0",
+    "postcss-import": "^11.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}
