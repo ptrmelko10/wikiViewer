@@ -1,0 +1,52 @@
+.page-header {
+  width: 100%;
+  text-align: center;
+  top:0;
+  left: 0;
+  background-color: $secondaryColor;
+  position: absolute;
+
+  @mixin atMedium {
+    text-align: left;
+  }
+
+  &__title {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-top: 5px;
+
+    @mixin atMedium {
+      font-size: 2.6rem;
+      padding-left: 1rem;
+    }
+  }
+
+  &--no-b-margin {
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 5px;
+
+    @mixin atMedium {
+      font-size: 1.95rem;
+      padding-left: 1rem;
+      margin-top: 12px;
+    }
+  }
+
+  &__btn-container {
+    float: center;
+    margin-bottom: 1.3rem;
+
+    @mixin atMedium {
+      float: right;
+      padding-right: 1.5rem;
+      font-size: 1.3rem;
+      margin-bottom: 0;
+      transform: translateY(-90px);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.search {
+  position: relative;
+  padding-bottom: 2.5rem;
+  text-align: left;
+  width: 75%;
+
+  &__results {
+    text-align: left;
+  }
+}
