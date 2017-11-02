@@ -1,0 +1,28 @@
+.search {
+  padding-top: 130px;
+  padding-bottom: 2.5rem;
+  text-align: left;
+  float: center;
+
+  @mixin atMedium {
+    padding-top: 160px;
+  }
+
+  &__input {
+    width:100%;
+    max-width: 250px;
+  }
+
+  &__results {
+    text-align: left;
+    /*border: 2px solid $mainBlue;*/
+  }
+
+  &__form {
+    display: block;
+  }
+
+  &__btn-container {
+    float: right;
+  }
+}

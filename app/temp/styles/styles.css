@@ -1,8 +1,122 @@
 body {
-  background-color: #f0ad4e;
-  padding: 60px;
+  background-color: #d59541;
 }
 h4 {
   text-align: left;
   text-decoration: underline;
 }
+.wrapper {
+  overflow: hidden;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+}
+&--no-padding-until-medium {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 800px) {
+&--no-padding-until-medium {
+    padding-left: 18px;
+    padding-right: 18px
+}
+  }
+.page-header {
+  top: 0px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  background-color: #f7faff;
+  border-bottom: 10px solid #2f5572;
+}
+@media (min-width: 800px) {
+.page-header {
+    text-align: left
+}
+  }
+.page-header__title {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-top: 5px;
+  }
+@media (min-width: 800px) {
+.page-header__title {
+      font-size: 2.6rem;
+      padding-left: 1rem
+  }
+  }
+.page-header--no-b-margin {
+    margin-bottom: 0;
+  }
+.page-header__subtitle {
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+@media (min-width: 800px) {
+.page-header__subtitle {
+      font-size: 1.95rem;
+      padding-left: 1rem;
+      margin-top: 12px
+  }
+  }
+.page-header__btn-container {
+    float: center;
+    margin-bottom: 1.3rem;
+  }
+@media (min-width: 800px) {
+.page-header__btn-container {
+      float: right;
+      padding-right: 1.5rem;
+      font-size: 1.3rem;
+      margin-bottom: 0;
+      -webkit-transform: translateY(-90px);
+              transform: translateY(-90px)
+  }
+  }
+.search {
+  padding-top: 130px;
+  padding-bottom: 2.5rem;
+  text-align: left;
+  float: center;
+}
+@media (min-width: 800px) {
+.search {
+    padding-top: 160px
+}
+  }
+.search__input {
+    width:100%;
+    max-width: 250px;
+  }
+.search__results {
+    text-align: left;
+    /*border: 2px solid $mainBlue;*/
+  }
+.search__form {
+    display: block;
+  }
+.search__btn-container {
+    float: right;
+  }
+.btn {
+  background-color: #2f5572;
+  color: #FFF;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+}
+.btn--header {
+    height: 90px;
+    width: 90px;
+  }
+.btn--secondary {
+    background-color: #f7faff;
+    color: #2f5572;
+    font-weight: 500;
+  }
+.btn--search {
+    padding: .75rem 1.2rem;
+  }

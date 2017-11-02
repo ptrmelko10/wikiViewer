@@ -1,0 +1,21 @@
+.btn {
+  background-color: $mainBlue;
+  color: #FFF;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+
+  &--header {
+    height: 90px;
+    width: 90px;
+  }
+
+  &--secondary {
+    background-color: $secondaryColor;
+    color: $mainBlue;
+    font-weight: 500;
+  }
+
+  &--search {
+    padding: .75rem 1.2rem;
+  }
+}
