@@ -1,6 +1,5 @@
 body {
   background-color: #d59541;
-  padding: 60px;
 }
 h4 {
   text-align: left;
@@ -25,12 +24,13 @@ h4 {
 }
   }
 .page-header {
-  width: 100%;
-  text-align: center;
-  top:0;
+  top: 0px;
   left: 0;
-  background-color: #f7faff;
+  width: 100%;
   position: absolute;
+  text-align: center;
+  background-color: #f7faff;
+  border-bottom: 10px solid #2f5572;
 }
 @media (min-width: 800px) {
 .page-header {
@@ -78,13 +78,30 @@ h4 {
   }
   }
 .search {
-  position: relative;
+  padding-top: 130px;
   padding-bottom: 2.5rem;
   text-align: left;
-  width: 75%;
+  float: center;
 }
+@media (min-width: 800px) {
+.search {
+    padding-top: 160px
+}
+  }
+.search__input {
+    width:100%;
+    max-width: 350px;
+  }
 .search__results {
     text-align: left;
+    /*border: 2px solid $mainBlue;*/
+  }
+.search__form {
+    display: block;
+  }
+.search__btn-container {
+    float: center;
+
   }
 .btn {
   background-color: #2f5572;
@@ -102,5 +119,5 @@ h4 {
     font-weight: 500;
   }
 .btn--search {
-
+    padding: .75rem 1.2rem;
   }

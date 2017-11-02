@@ -19,10 +19,12 @@
 
 		<div class="search">
 			<div class="wrapper">
-				<div class="form-control">
+				<form class="search__form" autocomplete="on" onsubmit="callfunction">
 					<input type="text" class="search__input" id="searchTerm" placeholder="Enter your search here">
-					<button type="button" id="searchButton" class="btn btn--secondary btn--search">Search</button>
-				</div>
+					<div class="search__btn-container">
+						<button type="submit" id="searchButtton" class="btn btn--secondary btn--search">Search</button>
+					</div>
+				</form>
 			</div>
 
 			<div class="search__results" id="searchResults"></div>

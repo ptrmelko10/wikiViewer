@@ -43,7 +43,7 @@ function displayResults(data) {
 		newH4.setAttribute("class", "resultTitle");
 		newH4.innerHTML = searchResults[title][i];
 
-		var newDiv = document.createElement("diV");
+		var newDiv = document.createElement("div");
 		newDiv.setAttribute("class","resultBody text-center well");
 
 		var newButton = document.createElement("a");
