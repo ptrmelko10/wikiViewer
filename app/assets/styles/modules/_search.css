@@ -10,7 +10,7 @@
 
   &__input {
     width:100%;
-    max-width: 350px;
+    max-width: 250px;
   }
 
   &__results {
@@ -23,7 +23,6 @@
   }
 
   &__btn-container {
-    float: center;
-
+    float: right;
   }
 }

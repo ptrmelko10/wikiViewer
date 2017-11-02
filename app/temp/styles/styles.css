@@ -90,7 +90,7 @@ h4 {
   }
 .search__input {
     width:100%;
-    max-width: 350px;
+    max-width: 250px;
   }
 .search__results {
     text-align: left;
@@ -100,8 +100,7 @@ h4 {
     display: block;
   }
 .search__btn-container {
-    float: center;
-
+    float: right;
   }
 .btn {
   background-color: #2f5572;
