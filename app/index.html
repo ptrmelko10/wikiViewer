@@ -3,8 +3,8 @@
 	<head>
 		<title>Wikipedia Viewer</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<!--script src="./app/assets/scripts/wikiViewer.js"></script-->
-		<link rel="stylesheet" href="./temp/styles/styles.css"
+		<script src="./assets/scripts/wikiViewer.js"></script>
+		<link rel="stylesheet" href="./temp/styles/styles.css">
 	</head>
 	<body>
 		<header class="page-header">
@@ -19,10 +19,10 @@
 
 		<div class="search">
 			<div class="wrapper">
-				<form class="search__form" autocomplete="on" onsubmit="callfunction">
+				<form class="search__form" id="inputForm">
 					<input type="text" class="search__input" id="searchTerm" placeholder="Enter your search here">
 					<div class="search__btn-container">
-						<button type="submit" id="searchButtton" class="btn btn--secondary btn--search">Search</button>
+						<button type="button" id="searchButton" class="btn btn--secondary btn--search">Search</button>
 					</div>
 				</form>
 			</div>

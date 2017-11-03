@@ -44,10 +44,10 @@ function displayResults(data) {
 		newH4.innerHTML = searchResults[title][i];
 
 		var newDiv = document.createElement("div");
-		newDiv.setAttribute("class","resultBody text-center well");
+		newDiv.setAttribute("class","search__result-container");
 
 		var newButton = document.createElement("a");
-		newButton.setAttribute("class", "btn btn-default btn-block searchResult");
+		newButton.setAttribute("class", "search__results-btn");
 		newButton.setAttribute("href", searchResults[url][i]);
 		newButton.setAttribute("target", "_blank");
 		newButton.setAttribute("role", "button");

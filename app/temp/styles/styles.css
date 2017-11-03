@@ -94,6 +94,8 @@ h4 {
   }
 .search__results {
     text-align: left;
+  /*  background-color: $mainBlue;*/
+    margin-bottom: 10px;
     /*border: 2px solid $mainBlue;*/
   }
 .search__form {
@@ -101,6 +103,18 @@ h4 {
   }
 .search__btn-container {
     float: right;
+  }
+.search__result-container {
+    border: 2px solid #FFF;
+    background-color: #2f5572;
+  }
+.search__result-container h4, .search__result-container a, .search__result-container p {
+      padding-left: 1rem;
+    }
+.search__results-btn {
+    color: #FFF;
+    font-weight: 200;
+    text-decoration: none;
   }
 .btn {
   background-color: #2f5572;
